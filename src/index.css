@@ -1,0 +1,28 @@
+.tudolist{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    height: 100vh; 
+    gap: 2rem;
+}
+.taskbar{
+    outline: 2px solid transparent; 
+    outline-offset: 2px;
+    border-color: rgb(86, 86, 246);
+    border-radius:10px ;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    width: 400px;
+}
+.btn{
+    border: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background-color: rgb(86, 86, 246);
+    border-radius: 10px;
+    color: white;
+}
